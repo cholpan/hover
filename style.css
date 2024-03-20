@@ -1,0 +1,19 @@
+body{
+    background: #000;
+}
+.container{
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-item{
+width:30px ;
+height: 30px;
+background: #464646;
+border-radius: 50%;
+transition: 0.5s;
+}
